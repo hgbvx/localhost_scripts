@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<!-- HTML file head: web page metadata -->
+	<head>	 	
+		<script type="text/javascript" src="js/script_zad3.js"></script>
+
+	</head>
+	<!-- HTML file body: web page content -->
+	<body>
+	<h1> Konwerter predkosci obrotowej </h1>
+		<form action="/action_page.php" id="unitform">
+			<label for="fname">Prędkość obrotowa:</label>
+			<input type="text" id="json" name="json" value={"pred_obr":"1000","unit_in":"rad/s","unit_out":"rpm"} size="45">
+		</form>
+			<input type="button" value="Wyslij" onclick="myOnClickMethod()"/>  
+		</form>  
+		
+		<p id="value_out"></p>
+
+	</body>
+
+</html>

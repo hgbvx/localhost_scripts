@@ -1,0 +1,36 @@
+  
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<title>HTML/JavaScript examples</title>
+		<!-- Chart.js library -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		<script type="text/javascript" src="js/chart.js"></script>
+	</head>
+
+	<!-- HTML file body: web page content -->
+	<body>
+		<h1>Harmonic function generator</h1>
+		<!-- Chart.js requires use of styles to set size! -->
+		<div style="height:10cm; width:15cm">
+			<canvas id="chart"></canvas>
+		</div>
+		<br>
+        <div>
+            <form>
+                Amplitude <input type="text" id ="amp" name="amp"/>
+                Frequency <input type="text" id ="freq" name="freq"/>
+                Nr of samples  <input type="text" id ="samp" name="samp"/>
+                Phase <input type="text" id ="phs" name="phs"/>
+            </form>
+
+        </div>
+        <br>
+		<div>
+			<button id="addData" onclick="addData()">Generate new one</button>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML/JQuery examples</title>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script>
+            var buttonCounter = 0;
+
+            $(document).ready(()=>{
+                $("#btn").click(()=>{
+                    buttonCounter += 1;
+                    $("#paragraph").html("<b>Click counter: </b>" + buttonCounter.toString());
+
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <h1>Simple button example: single file</h1>
+        <button id="btn">Click me</button>
+        <p id="paragraph"></p>
+    </body>
+
+</html>

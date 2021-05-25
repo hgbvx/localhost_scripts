@@ -1,0 +1,1 @@
+{"id": "0001", "name": "testowa", "value": 7.5, "type": 0.0}

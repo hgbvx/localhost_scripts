@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HTML file head: web page metadata -->
+
+<head>
+    <title>HTML/JavaScript/CSS (Boostrap) examples</title>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Chart.js library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <script type="text/javascript" src="js/matrix.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/matrix.css">
+</head>
+
+<!-- HTML file body: web page content -->
+
+<body>
+    <h1 class="text-center">RPI SenseHat matrix of led</h1>
+    <div id="matrix" class=" matrix "></div>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="0" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="1" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="2" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="3" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="4" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="5" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="6" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="7" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="8" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="9" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="10" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="11" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="12" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="13" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="14" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="15" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="16" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="17" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="18" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="19" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="20" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="21" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="22" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="23" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="24" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="25" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="26" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="27" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="28" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="29" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="30" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="31" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="32" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="33" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="34" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="35" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="36" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="37" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="38" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="39" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="40" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="41" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="42" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="43" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="44" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="45" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="46" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="47" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="48" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="49" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="50" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="51" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="52" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="53" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="54" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="55" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+    <ul class="nav">
+
+        <button style="background-color: transparent;" id="56" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="57" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="58" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="59" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="60" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="61" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="62" type="button" class="btn btn-primary menuitem"></button>
+        <button style="background-color: transparent;" id="63" type="button" class="btn btn-primary menuitem"></button>
+
+
+    </ul>
+
+
+    </div>
+
+    <div class="slidercontainer">
+        <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
+
+    </div>
+    <div class="slidercontainer">
+        <input type="range" min="0" max="255" value="0" class="slider" id="myRange1">
+
+    </div>
+    <div class="slidercontainer">
+        <input type="range" min="0" max="255" value="0" class="slider" id="myRange2">
+
+    </div>
+
+    <div>
+        <button style="background-color: cornflowerblue;" id="clear" type="button"
+            class="btn btn-primary send">CLEAR</button>
+        <button style="background-color: black;" id="colorbutton" type="button"
+            class="btn btn-primary colorbutton"></button>
+        <button style="background-color: cornflowerblue;" id="send" type="button"
+            class="btn btn-primary send">SEND</button>
+    </div>
+
+
+</body>
+
+</html>
